@@ -1,28 +1,23 @@
-#define _CRT_SECURE_NO_WARNINGS
+п»ї#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <math.h>
 #include <locale.h>
 
-int main()
+int main() 
 {
     setlocale(LC_ALL, "RUS");
-    int n, sum = 0, x; 
+    float x, y;
 
-    printf("введите число N: ");
-    if (scanf("%d", &n) != 1) {
-        printf("ошибка \n");
-        return 1;
-    }
-    x = abs(n);
-    while (x > 0)
+    printf("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ x Рё y: ");
+    scanf("%f %f", &x, &y);
+
+    if (x >= 0 && ((y >= 0 && (x * x + y * y <= 25)) || (y < 0 && (y >= x - 5)))) 
     {
-        sum += x % 10;
-        x /= 10;
+        printf("РўРѕС‡РєР° РїСЂРёРЅР°РґР»РµР¶РёС‚ РѕР±Р»Р°СЃС‚Рё\n");
     }
-    if (sum % 3 == 0) {
-        printf("сумма цифр числа (%d) кратна трем\n", sum);
-    }
-    else {
-        printf("сумма цифр числа (%d) не кратна трем\n", sum);
+    else 
+    {
+        printf("РўРѕС‡РєР° РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ РѕР±Р»Р°СЃС‚Рё\n");
     }
 
     return 0;
