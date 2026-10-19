@@ -9,7 +9,8 @@
    - для `y >= 0` — проверка попадания в четверть круга (x^2 + y^2 <= 25)
    - для `y < 0` — проверка положения выше прямой (y >= x - 5)
 3. Вывод соответствующего сообщения.
-4. 
+
+## 2. Блок схема
 <img width="403" height="568" alt="image" src="https://github.com/user-attachments/assets/f28b7527-ff48-4056-a610-5507d748c1b6" />
 https://app.diagrams.net/#LLR6.drawio#%7B%22pageId%22%3A%22q8SQM7Rj3icF_kb-cwUK%22%7D
 
