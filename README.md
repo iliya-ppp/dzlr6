@@ -14,7 +14,7 @@
 <img width="403" height="568" alt="image" src="https://github.com/user-attachments/assets/f28b7527-ff48-4056-a610-5507d748c1b6" />
 https://app.diagrams.net/#LLR6.drawio#%7B%22pageId%22%3A%22q8SQM7Rj3icF_kb-cwUK%22%7D
 
-## 2. Реализация программы
+## 3. Реализация программы
 ```c
 #include <stdio.h>
 #include <math.h>
@@ -41,11 +41,13 @@ int main()
 }
 ```
 
-## 3. Результаты работы программы
+## 4. Результаты работы программы
+<img width="362" height="74" alt="image" src="https://github.com/user-attachments/assets/5b4e8565-c2e4-4cce-b718-ec61c9da3248" />
+<img width="338" height="70" alt="image" src="https://github.com/user-attachments/assets/c522a1d6-9a2b-4a1b-945b-afca62cc05d2" />
 
 
 
-## 4. Информация о разработчике
+## 5. Информация о разработчике
 Мамонов Илья бИЦТ-261
 
 
