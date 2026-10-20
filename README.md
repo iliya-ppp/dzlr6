@@ -16,11 +16,12 @@ https://app.diagrams.net/#LLR6.drawio#%7B%22pageId%22%3A%22q8SQM7Rj3icF_kb-cwUK%
 
 ## 3. Реализация программы
 ```c
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
 
-int main()
+int main() 
 {
     setlocale(LC_ALL, "RUS");
     float x, y;
@@ -28,12 +29,12 @@ int main()
     printf("Введите координаты x и y: ");
     scanf("%f %f", &x, &y);
 
-    if (x >= 0 && ((y >= 0 && (x * x + y * y <= 25)) || (y < 0 && (y >= x - 5))))
-{
+    if (x >= 0 && ((y >= 0 && (x * x + y * y <= 25)) || (y < 0 && (y >= x - 5)))) 
+    {
         printf("Точка принадлежит области\n");
     }
-    else
-{
+    else 
+    {
         printf("Точка не принадлежит области\n");
     }
 
